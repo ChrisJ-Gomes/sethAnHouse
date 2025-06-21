@@ -429,7 +429,7 @@ p .text-larg {
 }
 
 .hero-bg-img {
-  background-image: url("./../Images/hero-bg-img.PNG");
+  background-image: url("./../images/hero-bg-img.PNG");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
