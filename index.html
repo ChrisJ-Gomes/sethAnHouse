@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+
+    <title>SethAn'House</title>
+</head>
+<body>
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-nav-centered ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="./Images/SethAnHouse-logo.png" alt="Logo" width="200px" height="80px" class="d-inline-block align-text-top">
+              <span class="brand-name text-white d-none d-lg-block">Seth An'House</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48"  class="bi bi-list img-fluid m-auto" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Nos réalisations</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Comment ça marche?</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Pourquoi nous ?</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">FAQ</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <button class="btn btn-gradient" type="submit">Contactez-nous</button>
+                </form>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <main class="container-fluid px-0">
+        <section id="heroSection"  class="hero-bg-img" style="margin-top: 80px;">
+          <div class="container scroll-reveal">
+            <div class="row align-items-center">
+              <div class="">
+                <h1 class="text-white">L'intelligence de la nature <span class="colored-text-alternate">au service  de votre intérieur </span></h1>
+                <p class="text-center text-white">Découvrez comment l’architecture intérieure et la rénovation au Gabon sont réinventées par Seth An’House. </p>
+                
+                <div class="row my-4 justify-content-center">
+                  <a href="" class="btn btn-gradient col  col-md-3 mx-3 shining-box">Prendre un appel</a>
+                </div>
+              </div>
+          
+            </div>
+          </div>
+        </section>
+        <section id="aboutSection">
+        <h2 class="scroll-reveal text-center"> Plongez au coeur de l'expertise</h2>
+        <p class="text-center scroll-reveal">Faites-vous accompagnez par des experts passionnés.</p>
+        <div class="container d-flex justify-content-center align-items-center mt-4">
+          <div class="row row-cols-1 row-cols-lg-2 m-auto">
+            <div class="leftContainer col ">
+                <p class=" m-auto">
+                  Seth An’House est une entreprise basée au Gabon, spécialisée dans le second oeuvre, la rénovation et l’architecture intérieure. Ce qui distingue Seth An’House, c’est son approche unique, inspirée par l’organisation fonctionnelle de la nature elle-même
+                  <br>
+                  <br>
+                  Leur mission est de transformer chaque espace en un lieu harmonieux, optimisé et majestueusement conçu, reflétant la cohérence et la paix de la nature.
+                </p>
+                <div class="ratingContainer  my-4 d-flex m-auto justify-content-start align-items-center">
+                    <div class="img-rating-container ">
+                        <img src="./Images/avatar1.jpg" alt="" class="img-rating border" style="border-radius: 50%;  height: 50px; width: 50px; margin:-1rem">
+                        <img src="./Images/avatar2.jpg" alt="" class="img-rating border" style="border-radius: 50%;  height: 50px; width: 50px; margin:-1rem">
+                        <img src="./Images/avatar1.jpg" alt="" class="img-rating border" style="border-radius: 50%;  height: 50px; width: 50px; margin:-1rem">
+                        <img src="./Images/avatar2.jpg" alt="" class="img-rating border" style="border-radius: 50%;  height: 50px; width: 50px; margin:-1rem">
+                        <img src="./Images/avatar1.jpg" alt="" class="img-rating border" style="border-radius: 50%;  height: 50px; width: 50px; margin:-1rem">
+                    </div>
+                    <p class="mx-4 "> +5</p>
+                    <div class="star-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#f59e0b" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#f59e0b" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#f59e0b" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#f59e0b" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#f59e0b" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg>
+                        
+                    </div>
+                </div>
+                <div class=" d-flex justify-content-start align-items-center m-auto">
+                  <a href="#Pricing" class=" btn btn-gradient btn-large my-4 shining-box scroll-reveal scroll-reveal--fade">Contactez-nous</a>
+                </div>
+                
+            </div>
+            <div class="rightContainer col  d-flex justify-content-center align-items-center "> 
+                <img src="./Images/IMG_5419.PNG" alt="" class="img-fluid m-auto" style="width: 600px; height: 386px; border-radius: 2rem;">
+
+            </div>
+          </div>
+        </div>          
+        </section>
+        <section id="servicesSection">
+            <h2 class="scroll-reveal colored-text-alternate">Nos domaines de spécialisation</h2>
+            <p class="text-center scroll-reveal colored-text-primary">Seth An’House propose une gamme complète de services pour concrétiser vos projets d’aménagement</p>
+            <div class="container-fluid">
+                <div class="row row-cols-1 row-cols-md-4 justify-content-center mb-3 text-center">
+                    <div class="col card services-card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h3 class="gradient-text-primary"> 1</h3>
+                            <h4 class="card-title gradient-text-primary my-0 fw-normal">Second Oeuvre</h4>
+                            <p > Ces travaux assurent toutes les étapes clés pour garantir un espace habitable, fonctionnel et esthétique</p>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mt-3 mb-4 ">
+                                <li class="text-align-start align-items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-check-lg col-1 img-fluid" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
+                                    </svg>
+                                    <p>Peinture intérieure et extérieure (neuf et rénovation)</p> 
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-check-lg col-1 img-fluid" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
+                                    </svg>
+                                    <p> Revêtement de sol et mural (carrelage, faïence, parquet, etc.).</p> 
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-check-lg col-1 img-fluid" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
+                                    </svg>
+                                    <p> Cloisonnement et faux plafonds.</p> 
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-check-lg col-1 img-fluid" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
+                                    </svg>
+                                    <p>Menuiserie intérieure (portes, placards, habillages).</p>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-check-lg col-1 img-fluid" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
+                                    </svg>
+                                <p> Électricité (installation, rénovation, mise aux normes).</p>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-check-lg col-1 img-fluid" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
+                                    </svg>
+                                    <p>Plomberie et sanitaires.</p> 
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-check-lg col-1 img-fluid" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
+                                    </svg>
+                                    <p> Isolation thermique et acoustique.</p>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-check-lg col-1 img-fluid" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
+                                    </svg>
+                                    <p> Pose d’équipements techniques (cuisines, salles de bain, etc.).</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col card services-card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h3 class="text-center gradient-text-primary"> 2</h3>
+                            <h4 class="card-title my-0 fw-normal gradient-text-primary">Rénovation</h4>
+                            <p> Que vous souhaitiez rénover une pièce, un appartement ou une maison entière, Seth An’House vous accompagne de l’étude à la finition</p>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mt-3 mb-4 ">
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-check-lg col-1 img-fluid" viewBox="0 0 16 16">
+                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
+                                    </svg>
+                                    <p>Le diagnostic et l’audit des espaces existants.</p>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-check-lg col-1 img-fluid" viewBox="0 0 16 16">
+                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
+                                    </svg>
+                                    <p>La refonte des volumes et l’optimisation des surfaces.</p>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-check-lg col-1 img-fluid" viewBox="0 0 16 16">
+                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
+                                    </svg>
+                                    <p>La modernisation des matériaux et équipements.</p>
+                                </li>
+                                <li>
+                                     <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-check-lg col-1 img-fluid" viewBox="0 0 16 16">
+                                        <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
+                                    </svg>
+                                    <p>La remise à neuf ou la mise en valeur du cachet existant.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col card services-card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h3 class="gradient-text-primary">3</h3>
+                            <h4 class="card-title my-0 fw-normal gradient-text-primary">Architecture D'Intérieure</h4>
+                            <p >Grâce à leur concept « Majestueux« , chaque aménagement est pensé comme un écosystème fonctionnel et esthétique.</p>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mt-3 mb-4 ">
+                                <li class="text-align-start">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-check-lg col-1 img-fluid" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
+                                    </svg>
+                                    <p>La conception 3D de votre futur intérieur.</p>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-check-lg col-1 img-fluid" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
+                                    </svg>
+                                    <p>Le zoning intelligent des espaces, inspiré de la nature.</p>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-check-lg col-1 img-fluid" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
+                                    </svg>
+                                    <p>Un agencement fonctionnel, ergonomique et fluide.</p>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-check-lg col-1 img-fluid" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
+                                    </svg>
+                                    <p>La sélection de matériaux, textures et couleurs cohérents avec l’atmosphère souhaitée.</p>
+                                </li>
+                                <li>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-check-lg col-1 img-fluid" viewBox="0 0 16 16">
+                                    <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
+                                    </svg>
+                                    <p>Le mobilier sur mesure, la décoration d’intérieur et l’ambiance lumineuse.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            
+           
+                
+
+
+        </section>
+        <section id="PourquoiNousChoisir" >
+        <h2 class="text-center">Un concept qui fait la différence</h2>
+        <p class="text-center"> Découvrez pourquoi nous sommes ceux qu'il vous faut pour votre projet</p>
+        <div class="container-fluid d-flex mt-4 justify-content-center align-items-center">
+          <div class="row row-cols-1 row-cols-lg-2 justify-content-center align-items-center">
+              <div class="left-container col d-none d-lg-block d-flex justify-content-center">
+                <img src="./Images/Seth-AnHouse-Construction-Maison.webp" alt="" class="img-fluid mt-4 mx-2" style="width: 267px; height: 386px; border-radius: 2rem;">
+                <img src="./Images/Seth-AnHouse-Salon-Oasis.webp" alt="" class="img-fluid" style="width: 267px; height: 386px; border-radius: 2rem;">
+              </div>
+                <div class="right-container col  mt-4 d-flex flex-column align-items-start justify-content-center ">
+                  <h3 class="text-center w-75 m-auto"> Le Majestueux </h3>
+                    <p class="padding-p-medium mx-4">
+                      Chez Seth An’House, nous croyons que la nature est le meilleur architecte. Chaque projet est conçu pour refléter l’harmonie et la fonctionnalité des écosystèmes naturels. Nous nous inspirons de la façon dont les éléments s’organisent dans la nature pour créer des espaces intérieurs qui sont non seulement esthétiques, mais aussi fonctionnels et apaisants. <br>
+                      Tout simplement <span class="text-gradient">Majestueux</span>.
+                    </p>
+                    <button class="btn btn-gradient m-auto" type="submit">Contactez-nous</button>
+                  
+                </div>
+          </div>
+        </div>
+        </section>
+        <section id="engagementSection">
+            <h2 class="scroll-reveal"> Nous nous engageons</h2>
+            <p class="text-center scroll-reveal">On vous garantit des solutions de qualité qui répondent à vos besoins.</p>
+            <div class="container">
+            <div class="cards-container container-fluid d-grid justify-content-center">
+                <div class="row m-auto justify-content-center">
+                <div class="card card-wcu col-12 col-md scroll-reveal scroll-reveal--slide-left">
+                    <img src="./Images/accompagnement-sur-mesure.png" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title ">Accompagnement sur mesure</h6>
+                        <p class="card-text">Nous vous offrons un accompagnement personnalisé pour chaque étape de votre projet, afin de garantir des résultats à la hauteur de vos attentes.</p>      
+                    </div>
+                </div>
+                <div class="card card-wcu bg-alternate col-12 col-md scroll-reveal scroll-reveal--fade">
+                    <img src="./Images/time-and-money.png" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title ">Respect des délais et du budget</h6>
+                        <p class="card-text text-white">Nous nous engageons à respecter les délais et le budget pour concrétiser votre vision</p>
+
+                    </div>
+                </div>
+                <div class="card card-wcu col-12 col-md scroll-reveal scroll-reveal--slide-right">
+                    <img src="./Images/design-perso.png" class="card-img-top " alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title">Design personnalisé</h6>
+                        <p class="card-text">Nous créons des designs sur mesure qui reflètent votre identité et vos valeurs</p>
+
+                    </div>
+                </div>
+                </div>
+            </div>
+                    
+            </div>
+            <a href="#Pricing" class=" btn btn-large btn-gradient my-4 shining-box scroll-reveal scroll-reveal--fade">Commencer</a>
+        </section> 
+        <section class="marquee-section scroll-reveal scroll-reveal--fade">
+            <h2 class="text-center">Découvrez quelques-unes de nos créations précédentes et laissez-vous inspirer!</h2>
+            <p class="text-center">Explorez notre galerie pour trouver l'inspiration pour votre prochain projet.</p>
+            <div class="container-fluid">
+            <div class="horizontal-marquee-slider">
+                <div class="horizontal-marquee-slider__track horizontal-marquee-slider__track-scroll-right ">
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="Images/Minias/miniature 001.jpg" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="Images/Minias/miniature 014.jpg" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="Images/Minias/miniature 028.jpg" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="Images/Minias/miniature 013.jpg" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="Images/Minias/miniature 009.jpg" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="Images/Minias/miniature 020.jpg" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="Images/Minias/miniature 026.jpg" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="Images/Minias/miniature 002.jpg" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="Images/Minias/miniature 031.jpg" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="Images/Minias/miniature 016.jpg" alt="creation-sethAn'House">
+                </div>
+                </div>
+                <div class="horizontal-marquee-slider__track horizontal-marquee-slider__track-scroll-left">
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="./Images/Minias/miniature 011.jpg" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="./Images/Minias/miniature 026.jpg" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="./Images/Minias/miniature 033.jpg" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="./Images/Minias/miniature 023.jpg" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="./Images/Minias/miniature 029.jpg" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="./Images/Minias/miniature 021.jpg" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="./Images/Minias/miniature 030.jpg" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="./Images/Minias/miniature 018.jpg" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="./Images/Minias/miniature 009.jpg" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="./Images/Minias/miniature 006.jpg" alt="creation-sethAn'House">
+                </div>
+                </div>
+                <div class="horizontal-marquee-slider__track horizontal-marquee-slider__track-scroll-right">
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="./Images/Minias/miniature 021.JPG" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="./Images/Minias/miniature 017.JPG" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="./Images/Minias/miniature 004.jpg" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="./Images/Minias/miniature 015.jpg" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="./Images/Minias/miniature 005.JPG" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="./Images/Minias/miniature 022.JPG" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="./Images/Minias/miniature 007.JPG" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="./Images/Minias/miniature 013.JPG" alt="creation-sethAn'House">
+                </div>
+                <div class="horizontal-marquee-slider__item-container">
+                    <img src="./Images/Minias/miniature 003.JPG" alt="creation-sethAn'House">
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="SeeMyWorkSection" >
+            <div class="container-fluid">
+                <h2 class="scroll-reveal">Nos réalisations</h2>
+                <p class="text-center scroll-reveal">Découvrez nos projets d’aménagement intérieur et de rénovation</p>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="before-after-slider col-12 col-md col-sm scroll-reveal scroll-reveal--slide-left">
+                            <div class="before-after-slider__img-container">
+                            <img class="before-after-slider__img-before" src="./Images/Divers/img1.jpeg" alt="Before img" />
+                            <img class="before-after-slider__img-after" src="./Images/Divers/img2.jpeg" alt="After img"
+                            />
+                            </div>
+                            <!-- step="10" -->
+                            <input
+                            type="range"
+                            min="0"
+                            max="100"
+                            value="50"
+                            aria-label="Percentage of before photo shown"
+                            class="before-after-slider__slider"
+                            />
+                            <div class="before-after-slider__slider-line" aria-hidden="true"></div>
+                            <div class="before-after-slider__slider-button" aria-hidden="true">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="30"
+                                height="30"
+                                fill="currentColor"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect width="256" height="256" fill="none"></rect>
+                                <line
+                                x1="128"
+                                y1="40"
+                                x2="128"
+                                y2="216"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                                ></line>
+                                <line
+                                x1="96"
+                                y1="128"
+                                x2="16"
+                                y2="128"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                                ></line>
+                                <polyline
+                                points="48 160 16 128 48 96"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                                ></polyline>
+                                <line
+                                x1="160"
+                                y1="128"
+                                x2="240"
+                                y2="128"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                                ></line>
+                                <polyline
+                                points="208 96 240 128 208 160"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                                ></polyline>
+                            </svg>
+                            </div>
+                        </div>
+                        <div class="before-after-slider col-12 col-md col-sm scroll-reveal scroll-reveal--slide-left">
+                            <div class="before-after-slider__img-container">
+                            <img class="before-after-slider__img-before" src="./Images/Divers/img1.jpeg" alt="Before img" />
+                            <img class="before-after-slider__img-after" src="./Images/Divers/img2.jpeg" alt="After img"
+                            />
+                            </div>
+                            <!-- step="10" -->
+                            <input
+                            type="range"
+                            min="0"
+                            max="100"
+                            value="50"
+                            aria-label="Percentage of before photo shown"
+                            class="before-after-slider__slider"
+                            />
+                            <div class="before-after-slider__slider-line" aria-hidden="true"></div>
+                            <div class="before-after-slider__slider-button" aria-hidden="true">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="30"
+                                height="30"
+                                fill="currentColor"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect width="256" height="256" fill="none"></rect>
+                                <line
+                                x1="128"
+                                y1="40"
+                                x2="128"
+                                y2="216"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                                ></line>
+                                <line
+                                x1="96"
+                                y1="128"
+                                x2="16"
+                                y2="128"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                                ></line>
+                                <polyline
+                                points="48 160 16 128 48 96"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                                ></polyline>
+                                <line
+                                x1="160"
+                                y1="128"
+                                x2="240"
+                                y2="128"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                                ></line>
+                                <polyline
+                                points="208 96 240 128 208 160"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                                ></polyline>
+                            </svg>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="before-after-slider col-12 col-md col-sm scroll-reveal scroll-reveal--slide-left">
+                            <div class="before-after-slider__img-container">
+                            <img class="before-after-slider__img-before" src="./Images/Divers/img1.jpeg" alt="Before img" />
+                            <img class="before-after-slider__img-after" src="./Images/Divers/img2.jpeg" alt="After img"
+                            />
+                            </div>
+                            <!-- step="10" -->
+                            <input
+                            type="range"
+                            min="0"
+                            max="100"
+                            value="50"
+                            aria-label="Percentage of before photo shown"
+                            class="before-after-slider__slider"
+                            />
+                            <div class="before-after-slider__slider-line" aria-hidden="true"></div>
+                            <div class="before-after-slider__slider-button" aria-hidden="true">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="30"
+                                height="30"
+                                fill="currentColor"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect width="256" height="256" fill="none"></rect>
+                                <line
+                                x1="128"
+                                y1="40"
+                                x2="128"
+                                y2="216"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                                ></line>
+                                <line
+                                x1="96"
+                                y1="128"
+                                x2="16"
+                                y2="128"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                                ></line>
+                                <polyline
+                                points="48 160 16 128 48 96"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                                ></polyline>
+                                <line
+                                x1="160"
+                                y1="128"
+                                x2="240"
+                                y2="128"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                                ></line>
+                                <polyline
+                                points="208 96 240 128 208 160"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                                ></polyline>
+                            </svg>
+                            </div>
+                        </div>
+                        <div class="before-after-slider col-12 col-md col-sm scroll-reveal scroll-reveal--slide-left">
+                            <div class="before-after-slider__img-container">
+                            <img class="before-after-slider__img-before" src="./Images/Divers/img1.jpeg" alt="Before img" />
+                            <img class="before-after-slider__img-after" src="./Images/Divers/img2.jpeg" alt="After img"
+                            />
+                            </div>
+                            <!-- step="10" -->
+                            <input
+                            type="range"
+                            min="0"
+                            max="100"
+                            value="50"
+                            aria-label="Percentage of before photo shown"
+                            class="before-after-slider__slider"
+                            />
+                            <div class="before-after-slider__slider-line" aria-hidden="true"></div>
+                            <div class="before-after-slider__slider-button" aria-hidden="true">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="30"
+                                height="30"
+                                fill="currentColor"
+                                viewBox="0 0 256 256"
+                            >
+                                <rect width="256" height="256" fill="none"></rect>
+                                <line
+                                x1="128"
+                                y1="40"
+                                x2="128"
+                                y2="216"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                                ></line>
+                                <line
+                                x1="96"
+                                y1="128"
+                                x2="16"
+                                y2="128"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                                ></line>
+                                <polyline
+                                points="48 160 16 128 48 96"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                                ></polyline>
+                                <line
+                                x1="160"
+                                y1="128"
+                                x2="240"
+                                y2="128"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                                ></line>
+                                <polyline
+                                points="208 96 240 128 208 160"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="16"
+                                ></polyline>
+                            </svg>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-4 bg-color-secondary ">
+      <div class="col-md col-12 d-flex align-items-center order-0">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+        <img src="./images/SethAnHouse-logo.png" width="128" height="96" alt="">
+        </a>
+        <span class="mb-3 mb-md-0 colored-text-primary">&copy; 2025 ,SethAn'House</span>
+      </div>
+
+      <ul class="nav col-md col-12 justify-content-center list-unstyled d-flex order-2">
+        <li class="ms-3 nav-item"><a class="nav-link" href="./legal-mention.html"> Mentions Légales</a></li>
+        <li class="ms-3 nav-item"><a class="nav-link" href="./privacy-policy.html">Politique de confidentialité</a></li>
+      </ul>
+
+      <ul class="nav col-md col-3 justify-content-center list-unstyled d-flex order-1">
+        <li class="ms-3">
+          <a class="colored-text-primary" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+              <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+            </svg>
+          </a>
+        </li>
+        <li class="ms-3">
+          <a class="colored-text-primary" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="./Scripts/before-after-slider.js"></script>
+    
+</body>
+</html>

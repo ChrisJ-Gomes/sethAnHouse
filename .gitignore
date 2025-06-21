@@ -1,0 +1,7 @@
+# Ignorer tout le répertoire ./style/scss
+/style/scss/
+
+# Ignorer tous les fichiers .scss
+*.scss
+# Ignorer tous les fichiers .css.map
+*.css.map
